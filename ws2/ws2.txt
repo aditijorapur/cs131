@@ -1,0 +1,30 @@
+ws2 Outputs
+
+
+My home directory path (found commands through slides + google): /home/aditi_jorapur
+
+My User Id (found commands through slides + google): 1001
+
+The Ids of the Groups I Belong to: 1002 4 20 24 25 29 30 44 46 118 119 1000 1001
+
+The Names of The Groups I Belong to: aditi_jorapur adm dialout cdrom floppy audio dip video plugdev netdev lxd ubuntu google-sudoers
+
+File that contains info about memory: meminfo
+
+File that contains info about cpu: cpuinfo
+
+MemTotal:         976904 kB
+
+There are 2 processors on my server:
+processor	: 0
+processor	: 1
+
+Processor Architecture Name: 
+model name	: Intel(R) Xeon(R) CPU @ 2.20GHz
+
+Processor Speed:
+cpu MHz		: 2199.998
+2199.998 / 1000 = 2.199998 GHz
+
+Operating System Version (/etc/os-release): 
+VERSION="20.04.6 LTS (Focal Fossa)"
