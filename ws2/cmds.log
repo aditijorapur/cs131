@@ -1,0 +1,25 @@
+    2  mkdir cs131
+    4  git clone https://github.com/aditijorapur/cs131.git
+    6  cd cs131
+   12  mkdir ws2
+   14  cd ws2
+   15  echo $HOME
+   16  id -u
+   39  vim ws2.txt
+   48  pwd
+   54  echo $HOME >> ws2.txt
+   57  id -u >> ws2.txt
+   59  id -G >> ws2.txt
+   61  id -G -n >> ws2.txt
+   64  ls /proc/ | grep mem
+   66  ls /proc/ | grep meminfo >> ws2.txt
+   67  ls /proc/ | grep cpuinfo >> ws2.txt
+   73  head -n 1 /proc/meminfo >> ws2.txt
+   75  head -n 20 /proc/cpuinfo
+   76  tail -n 20 /proc/cpuinfo
+   79  grep "processor" /proc/cpuinfo >> ws2.txt
+   82  grep "model name" /proc/cpuinfo >> ws2.txt
+   84  grep "MHz" /proc/cpuinfo >> ws2.txt
+   85  cat /etc/os-release
+   87  grep "VERSION" /etc/os-release >> ws2.txt
+   89  history > cmds.log
