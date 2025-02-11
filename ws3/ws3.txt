@@ -1,0 +1,9 @@
+task 1: 
+Number of people in most popular location: 8605 | Most popular location: 161.0
+Number of people in second most popular location: 8407 | Second most popular location: 132.0
+Number of people in third most popular location: 8163 | Third most popular location: 186.0
+
+task 2:
+Number of people in most popular location: 13738 | Most popular location: 237.0
+Number of people in second most popular location: 13519 | Second most popular location: 236.0
+Number of people in third most popular location: 12997 | Third most popular location: 161.0
