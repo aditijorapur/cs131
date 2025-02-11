@@ -1,0 +1,24 @@
+  122  cd cs131
+  124  pip install gdown
+  125  apt install python3-pip
+  126  sudo apt install python3-pip
+  127  pip install gdown
+  128  pip install --upgrade gdown
+  129  mkdir ws3
+  130  cd ws3
+  132  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  140  echo 'export PATH=$HOME/.local/bin:$PATH' >> ~/.bashrc
+  141  source ~/.bashrc
+  144  cat 2019-01-h1.csv
+  148  head 2019-01-h1.csv
+  155  grep '"2019-01-02' 2019-01-h1.csv | cut -d',' -f8 > jan_2_pickup_locations.txt
+  157  head jan_2_pickup_locations.txt
+  158  sort jan_2_pickup_locations.txt | uniq -c | sort -nr | head -n 3
+  160  sort jan_2_pickup_locations.txt | uniq -c | sort -nr | head -n 3 > ws3.txt
+  167  grep '"2019-01-10' 2019-01-h1.csv | cut -d',' -f8 > jan_10_pickup_locations.txt
+  169  head jan_10_pickup_locations.txt
+  171  sort jan_10_pickup_locations.txt | uniq -c | sort -nr | head -n 3
+  172  sort jan_10_pickup_locations.txt | uniq -c | sort -nr | head -n 3 > ws3.txt
+  174  sort jan_2_pickup_locations.txt | uniq -c | sort -nr | head -n 3 > ws3.txt
+  175  sort jan_10_pickup_locations.txt | uniq -c | sort -nr | head -n 3 >> ws3.txt
+  190  history > cmds.log
