@@ -1,0 +1,39 @@
+Task 1:
+
+Execution of command 1 in cs131 directory:
+
+total 16
+-rw-rw-r-- 1 aditi_jorapur aditi_jorapur    8 Feb  3 18:44 README.md
+drwxrwxr-x 2 aditi_jorapur aditi_jorapur 4096 Feb  6 21:38 ws2
+drwxrwxr-x 2 aditi_jorapur aditi_jorapur 4096 Feb 11 21:50 ws3
+drwxrwxr-x 2 aditi_jorapur aditi_jorapur 4096 Feb 18 19:10 a1
+-rw-rw-r-- 1 aditi_jorapur aditi_jorapur    0 Feb 18 19:10 a1.txt
+
+Execution of command w in cs131 directory:
+6
+
+Task 2:
+2c)
+Average of 163.0-229.0.txt:
+7.05010395010395010395
+
+Average of 229.0-7.0.txt:
+13.75909090909090909090
+
+2d)
+Highest Total Amount Paid by customers on Jan 10 2019:
+36090.3
+
+2e)
+10 Most popular dropoff locations with 3 or more customers:
+
+ 158025 236.0
+ 140655 161.0
+ 137764 237.0
+ 114146 170.0
+ 110764 162.0
+ 110641 230.0
+ 102202 142.0
+ 100132 48.0
+  96839 239.0
+  96703 141.0
