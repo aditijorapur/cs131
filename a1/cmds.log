@@ -1,0 +1,45 @@
+
+Task 1:
+  238  cd cs131
+  240  mkdir a1
+  241  vim .bashrc
+  245  cd a1
+  248  nano ~/.bashrc
+  249  l
+  252  w
+  254  source ~/.bashrc
+  255  l
+  256  w
+  257  cd a1
+  261  nano a1.txt
+  265  w >> a1.txt
+  268  l >> a1.txt
+  269  cat a1.txt
+  291  mv ~/cs131/ws3/2019-01-h1.csv ~/cs131/a1/
+  295  head -n 10 2019-01-h1.csv
+Task 2:
+2a)
+  296  mkdir FARE
+2b)
+  298  grep ',229.0,7.0,' ~/cs131/ws3/2019-01-h1.csv | cut -d',' -f11 > ~/cs131/a1/FARE/229.0-7.0.txt
+  299  grep ',229.0,7.0,' ~/cs131/a1/2019-01-h1.csv | cut -d',' -f11 > ~/cs131/a1/FARE/229.0-7.0.txt
+  303  cat 229.0-7.0.txt
+  304  grep ',163.0,229.0,' ~/cs131/a1/2019-01-h1.
+  308  grep ',163.0,229.0,' ~/cs131/a1/2019-01-h1.csv | cut -d',' -f11 > ~/cs131/a1/FARE/163.0-229.0.txt
+  312  cat 163.0-229.0.txt
+2c)
+  317  sum=$(paste -sd+ 163.0-229.0.txt | bc)
+  318  count=$(wc -l < 163.0-229.0.txt)
+  319  average=$(echo "$sum / $count" | bc -l) >> a1.txt
+  331  echo "Average: $average" >> a1.txt
+  335  sum=$(paste -sd+ ~/cs131/a1/FARE/229.0-7.0.txt | bc)
+  336  count=$(wc -l < ~/cs131/a1/FARE/229.0-7.0.txt)
+  337  average=$(echo "$sum / $count" | bc -l)
+  338  echo "Average: $average" >> ~/cs131/a1/FARE/a1.txt
+2d)
+  340  grep "2019-01-10" ~/cs131/a1/2019-01-h1.csv > ~/cs131/a1/2019-01-10.csv
+  344  cut -d',' -f17 ~/cs131/a1/2019-01-10.csv > ~/cs131/a1/2019-01-10-total-amounts.txt
+  347  sort -n ~/cs131/a1/2019-01-10-total-amounts.txt | tail -n 1 >> a1.txt
+2e)
+  375  grep -E ',((3\.0)|([4-9]\.0)|([1-9][0-9]+\.0)),' ~/cs131/a1/2019-01-h1.csv | cut -d',' -f9 | sort | uniq -c | sort -nr | head -10 >> a1.txt
+  377  history > cmds.log
