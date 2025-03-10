@@ -15,15 +15,20 @@ The `countfile.bash` script counts the number of files of each type (based on fi
 
 ```bash
 ./countfile.sh /path/to/directory
+```
 
 ## Example
+
 Input:
+```bash
 ./countfile.sh testdirectory
+```
 
 Output: 
+```bash
 Counts of the file types in - testdirectory:
 txt: 3
 jpg: 1
 docx: 1
 pdf: 2
-
+```
