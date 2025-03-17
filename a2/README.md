@@ -1,7 +1,7 @@
 # Count of File Types in a Directory
 
 ## What the command does
-The `countfile.bash` script counts the number of files of each type (based on file extensions) in a given directory. It loops through the files in the directory, identifies their extensions, and displays the count for each type.The files without any extensions are ignored.
+The `countfile.sh` script counts the number of files of each type (based on file extensions) in a given directory. It loops through the files in the directory, identifies their extensions, and displays the count for each type.The files without any extensions are ignored.
 
 ## When this command is useful
 - Determine the distribution of each file in a directory. 
