@@ -1,0 +1,7 @@
+  687  sed 's/[:\"-]//g' 2019-01-h1.csv > no-separators.csv
+  689  head -10 no-separators.csv > ws56.txt
+  702  sed 's/\.[0-9]\+//g' no-separators.csv > no-fractions.csv
+  706  head -10 no-fractions.csv >> ws56.txt
+  710  awk -F, '$17 >= 10.0 { freq[$14]++ } END { for (tip in freq) print tip, freq[tip] }' 2019-01-h1.csv >> ws56.txt
+  718  awk -F',' '{tips[$14]++} END {for (t in tips) print t, tips[t]}' 2019-01-h1.csv | sort -k2 -nr | head -20 >> ws56.txt
+  723  sed -n '/^2\.0,/p' 2019-01-h1.csv > vendor2.csv
