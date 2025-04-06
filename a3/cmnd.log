@@ -1,0 +1,6 @@
+  782  nano grades.csv
+  783  cat grades.csv
+  793  nano grader.awk
+  795  awk -f grader.awk grades.csv
+  805  nano a3.txt
+  806  cat a3.txt

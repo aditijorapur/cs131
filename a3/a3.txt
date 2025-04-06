@@ -1,0 +1,29 @@
+Results: 
+
+Student name:  David
+Total Score:  195
+Average Score:  65
+Status:  Fail
+
+Student name:  Eve
+Total Score:  265
+Average Score:  88.3333
+Status:  Pass
+
+Student name:  Bob
+Total Score:  246
+Average Score:  82
+Status:  Pass
+
+Student name:  Charlie
+Total Score:  270
+Average Score:  90
+Status:  Pass
+
+Student name:  Alice
+Total Score:  253
+Average Score:  84.3333
+Status:  Pass
+
+Highest Scoring Student:  Charlie
+Lowest Scoring Student:  David
