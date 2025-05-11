@@ -1,0 +1,48 @@
+ Features:
+gender
+race/ethnicity
+parental level of education
+lunch
+test preparation course
+math score
+reading score
+writing score
+
+Number of Entries:
+1000
+
+
+=== Score Stats ===
+
+--- Math Score Stats ---
+Mean: 66.089
+Min: 0
+Max: 100
+
+--- Reading Score Stats ---
+Mean: 69.169
+Min: 17
+Max: 100
+
+--- Writing Score Stats ---
+Mean: 68.054
+Min: 10
+Max: 100
+
+
+ Score Percentiles
+
+--- Math Score Percentiles ---
+25th percentile: 57
+50th percentile: 66
+75th percentile: 77
+
+--- Reading Score Percentiles ---
+25th percentile: 59
+50th percentile: 70
+75th percentile: 79
+
+--- Writing Score Percentiles ---
+25th percentile: 57
+50th percentile: 69
+75th percentile: 79
